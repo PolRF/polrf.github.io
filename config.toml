@@ -2,7 +2,7 @@ baseURL = "https://polruiz.com"
 languageCode = "en-us"
 title = "Pol Ruiz"
 theme = "cactus"
-copyright = "You" # cactus will use title if copyright is not set
+copyright = "Pol Ruiz" # cactus will use title if copyright is not set
 disqusShortname = "PR" # Used when comments is enabled. Cactus will use site title if not set
 # googleAnalytics = "G-5EJV850M9C"
 
@@ -23,7 +23,7 @@ weight = 2
 [[menu.main]]
 name = "Projects"
 url = "/projects"
-weight = 2
+weight = 3
 
 
 [markup]
@@ -52,7 +52,7 @@ weight = 2
   rss = true # generate rss feed. default value is false
   googleAnalyticsAsync = false # use asynchronous tracking. Synchronous tracking by default
   showAllPostsArchive = false # default
-
+  logo = "images/logo.jpeg"
   # Home page settings
   description = "Pol Ruiz's personal website"
   mainSection = "posts" # your main section
