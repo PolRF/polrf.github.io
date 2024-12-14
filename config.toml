@@ -56,6 +56,7 @@ weight = 3
   # Home page settings
   description = "Pol Ruiz's personal website"
   mainSection = "posts" # your main section
+  mainSectionTitle = "Posts" # title for main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview = true # show tags overview by default.
