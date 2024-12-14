@@ -20,16 +20,6 @@ name = "Writings"
 url = "/posts"
 weight = 2
 
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 3
-
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 4
-
 [markup]
   [markup.tableOfContents]
     endLevel = 4
