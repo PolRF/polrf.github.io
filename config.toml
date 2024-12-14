@@ -46,9 +46,9 @@ weight = 4
     style = "dracula"
     tabWidth = 4
 
-# [services]
-#   [services.googleAnalytics]
-#     id = 'G-MEASUREMENT_ID'
+[services]
+  [services.googleAnalytics]
+    id = 'G-5EJV850M9C'
 
 [params]
 
