@@ -4,7 +4,7 @@ title = "Pol Ruiz"
 theme = "cactus"
 copyright = "You" # cactus will use title if copyright is not set
 disqusShortname = "PR" # Used when comments is enabled. Cactus will use site title if not set
-googleAnalytics = "G-5EJV850M9C"
+# googleAnalytics = "G-5EJV850M9C"
 
 
 # summaryLength = 2
@@ -45,6 +45,10 @@ weight = 4
     noClasses = true
     style = "dracula"
     tabWidth = 4
+
+# [services]
+#   [services.googleAnalytics]
+#     id = 'G-MEASUREMENT_ID'
 
 [params]
 
