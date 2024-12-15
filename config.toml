@@ -20,10 +20,15 @@ name = "Posts"
 url = "/posts"
 weight = 2
 
-[[menu.main]]
-name = "Projects"
-url = "/projects"
-weight = 3
+# [[menu.main]]
+# name = "Projects"
+# url = "/projects"
+# weight = 3
+
+# [[menu.main]]
+# name = "CV"
+# url = "/cv"
+# weight = 4
 
 
 [markup]
@@ -54,14 +59,14 @@ weight = 3
   showAllPostsArchive = false # default
   logo = "images/logo.jpeg"
   # Home page settings
-  description = "Pol Ruiz's personal website"
+  description = "Welcome to My Corner of AI and Innovation! Dive into the world of cutting-edge AI research, bold experiments, and creative tech ventures. Here, I document my journey—from implementing state-of-the-art LLMs from scratch and breaking benchmarks in weeks to building retrieval-augmented systems and tackling quirky side projects like automated websites and NFT tracking."
   mainSection = "posts" # your main section
   mainSectionTitle = "Posts" # title for main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview = true # show tags overview by default.
   showProjectsList = true # show projects list by default (if projects data file exists).
-  projectsUrl = "https://github.com/polrf" # title link for projects list
+#   projectsUrl = "#" # url for projects page
 
   # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
   dateFormat = "2006-01-02" # default
