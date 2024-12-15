@@ -59,7 +59,7 @@ weight = 2
   showAllPostsArchive = false # default
   logo = "images/logo.jpeg"
   # Home page settings
-  description = "Welcome to My Corner of AI and Innovation! Dive into the world of cutting-edge AI research, bold experiments, and creative tech ventures. Here, I document my journey—from implementing state-of-the-art LLMs from scratch and breaking benchmarks in weeks to building retrieval-augmented systems and tackling side projects like automated websites."
+  description = "Welcome to my Corner of AI and Innovation! Dive into the world of cutting-edge AI research, bold experiments, and creative tech ventures. Here, I document my journey—from implementing state-of-the-art LLMs from scratch and breaking benchmarks in weeks to building retrieval-augmented systems and tackling side projects like automated websites."
   mainSection = "posts" # your main section
   mainSectionTitle = "Posts" # title for main section
   showAllPostsOnHomePage = false # default
