@@ -1,0 +1,49 @@
+{
+    "list": [
+      {
+         "name":"Two Weeks to 1st Place: Breaking Gaia Benchmark",
+         "url":"https://huggingface.co/spaces/gaia-benchmark/leaderboard",
+         "desc":"In a two-week sprint, developed a novel approach for a generalized AI Agent, achieving 1st place on the leaderboard."
+      },
+       {
+          "name":"Implemented SOTA LLMs from Scratch",
+          "url":"https://github.com/PolRF/LM",
+          "desc":"Implemented state-of-the-art LLM architectures from scratch using PyTorch and Triton, including GQA, RoPE, GPT-2, GELU, MoE, KV Cache, Alibi. Trained models with parameter sizes ranging from 117M to 2.3B on an 8xH100 GPU cluster. Open-sourced code and model weights."
+       },
+       {
+            "name":"Research on the Impact of RoPE Theta Across Sequence Lengths",
+            "url":"#",
+            "desc":"Conducted research on the impact of the RoPE theta parameter on LLMs at various sequence lengths. Trained a 117M parameter model with sequence lengths of 1024, 4096, and 8192, testing theta values ranging from 10,000 to 10,000,000. Spoiler: don't set theta to 10,000."
+       },
+       {
+          "name":"Mixture of Experts vs dense models",
+          "url":"#",
+          "desc":"Trained two different models of 500M parameters each, one with MoE and one with dense layers. Studied the performance loss of MoE vs dense models and the impact on inference latency of both models."
+       },
+       {
+          "name":"Chat-Based RAG for Legal Document Retrieval",
+          "url":"#",
+          "desc":"Developed a retrieval-augmented generation (RAG) system as a side project for Aldara (YC S22), enabling access to legal documentation through a chat-based interface."
+       },
+       {
+            "name": "Machine learning for stonks prediction",
+            "url": "#",
+            "desc": "Developed a machine learning model to predict stock prices. The model uses a recurrent neural network (RNN) with long short-term memory (LSTM) cells to predict the closing price of a stock based on its historical performance."
+       },
+       {
+            "name": "SEO optimized website (sold)",
+            "url": "#",
+            "desc": "Content website. Achieved +1M unique visitors per  month in the first 8 months of launch. Automated content creation and SEO optimization."
+       },
+       {
+            "name": "Criptostracking: NFT tracking and analysis automated website (Banned)",
+            "url": "#",
+            "desc": "Website that tracked and analyzed NFT projects using web scraping and machine learning for insights (trends and sentiment analysis) from platforms like Twitter, Discord, and OpenSea. It gained 13k+ unique users per month within months before being banned by Google."
+       },
+       {
+            "name": "Android app for getting info about an email address (Shut down)",
+            "url": "#",
+            "desc": "Developed an Android app that provided information about an email address, including the owner's name, location, social media profiles, and phone numbers. The app grew to $300 MRR but was shut down due to the introduction of the GDPR law."
+       }
+    ]
+ }

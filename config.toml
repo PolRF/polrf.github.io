@@ -1,0 +1,103 @@
+baseURL = "https://polruiz.com"
+languageCode = "en-us"
+title = "Pol Ruiz"
+theme = "cactus"
+copyright = "Pol Ruiz" # cactus will use title if copyright is not set
+disqusShortname = "PR" # Used when comments is enabled. Cactus will use site title if not set
+# googleAnalytics = "G-5EJV850M9C"
+
+
+# summaryLength = 2
+
+# Main menu which appears below site header.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+# [[menu.main]]
+# name = "Projects"
+# url = "/projects"
+# weight = 3
+
+# [[menu.main]]
+# name = "CV"
+# url = "/cv"
+# weight = 4
+
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    style = "dracula"
+    tabWidth = 4
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-5EJV850M9C'
+
+[params]
+
+  colortheme = "white" # dark, light, white, or classic
+  rss = true # generate rss feed. default value is false
+  googleAnalyticsAsync = false # use asynchronous tracking. Synchronous tracking by default
+  showAllPostsArchive = false # default
+  logo = "images/logo.jpeg"
+  # Home page settings
+  description = "Exploring AI and innovation: from training LLMs and breaking benchmarks to crafting retrieval systems and automated tools. Now, building the next human–AI browser interaction. My journey in tech, distilled."
+  mainSection = "posts" # your main section
+  mainSectionTitle = "Posts" # title for main section
+  showAllPostsOnHomePage = false # default
+  postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
+  tagsOverview = true # show tags overview by default.
+  showProjectsList = true # show projects list by default (if projects data file exists).
+#   projectsUrl = "#" # url for projects page
+
+  # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+  dateFormat = "2006-01-02" # default
+
+  # Post page settings
+  show_updated = true # default
+  showReadTime = true # default
+
+  [params.comments]
+    enabled = false # default
+    engine = "cactus_comments" # only disqus, utterances, and cactus_comments is supported
+    [params.comments.utterances]
+      repo = "<github_username>/<github_reponame>"
+      label = "hugo-site-name" # you can use however you want to label your name in your repo's issues
+      theme = "github-light"
+    [params.comments.cactuscomments]
+      siteName = "your_cactus_comments_sitename" # see https://cactus.chat/ on how to register your site name
+      #serverUrl = "" # Defaults to https://matrix.cactus.chat:8448 (Cactus Chat public server)
+      #serverName = "" # Defaults to cactus.chat
+
+  # the value of name should be an valid font awesome icon name (brands type)
+  # https://fontawesome.com/icons?d=gallery&s=brands
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/polrf"
+  [[params.social]]
+    name = "linkedin"
+    link = "https://www.linkedin.com/in/pol-ruiz-farre/"
+  [[params.social]]
+    name = "twitter"
+    link = "https://x.com/polruizfarre"
+  [[params.social]]
+    name = "email"
+    link = "polruizfarre@gmail.com.com"  # no need for "mailto:" in the head
